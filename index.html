@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amadou Saikou Jallow - Portfolio</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">Amadou Saikou Jallow</div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+
+        </ul>
+          <!-- Hamburger Menu -->
+        <div class="hamburger">
+          <img
+        class="menu-icon"
+        src="src/assets/open-menu.png"
+        alt="Open Menu"
+      />
+
+      <img
+        class="close-icon"
+        src="src/assets/close-menu.png"
+        alt="Close Menu"
+      />
+        </div>
+        
+       
+      </div>
+    </nav>
+
+    <!-- Mobile Sidebar -->
+    <div class="sidebar">
+      <ul class="sidebar-menu">
+        <li><a href="#home" class="sidebar-link">Home</a></li>
+        <li><a href="#about" class="sidebar-link">About</a></li>
+        <li><a href="#skills" class="sidebar-link">Skills</a></li>
+        <li><a href="#projects" class="sidebar-link">Projects</a></li>
+        <li><a href="#contact" class="sidebar-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="profile-image-container">
+          <img
+            src="/src/assets/profile-3.jpeg"
+            alt="Amadou Saikou Jallow"
+            class="profile-image"
+            onerror="
+              this.src = 'https://via.placeholder.com/300?text=Your+Photo'
+            "
+          />
+        </div>
+        <h1 class="hero-title">Amadou Saikou Jallow</h1>
+        <p class="hero-subtitle">
+          Frontend Developer | Gamer | Tech Enthusiast
+        </p>
+        <p class="hero-description">
+          Creating beautiful and functional digital experiences
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hi! I'm a Frontend Developer and student at Jasseh Code Camp (JCC), passionate about building responsive and user-friendly web applications. Skilled in HTML, CSS, JavaScript, and modern frontend technologies, with a strong commitment to continuous learning and creating exceptional user experiences.
+
+            </p>
+            <p>
+              My journey in tech has been filled with exciting challenges and
+              continuous learning. I'm always eager to take on new projects and
+              collaborate with talented teams.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, or working on personal
+              creative projects.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>10+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+              <h3>1+</h3>
+              <p>Year Experience</p>
+            </div>
+            <div class="stat">
+              <h3>10+</h3>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>Frontend Development</h3>
+            <p>HTML, CSS, JavaScript, Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-palette"></i>
+            <h3>UI/UX Design</h3>
+            <p>Figma, Responsive Design, User Research, Prototyping</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-tools"></i>
+            <h3>Tools & DevOps</h3>
+            <p>Git, GitHub, VS Code, Vercel, Vite</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div>
+             <img
+              src="src/assets/Barakah-Fund.jpeg"
+              alt="Portfolio Website"
+              class="project-image"
+              onerror="
+                this.src = 'https://via.placeholder.com/300?text=Project+Image'
+              "
+            />
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>
+              A modern, responsive portfolio showcasing work and skills. Built
+              with vanilla JavaScript and custom CSS for optimal performance.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">HTML5</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+          <div class="project-card">
+            <div>
+              <img
+                src="src/assets/build-pro.jpeg"
+                alt="Construction Website"
+                class="project-image"
+                onerror="
+                  this.src = 'https://via.placeholder.com/300?text=Project+Image'
+                ">
+            </div>
+            <h3>Construction website</h3>
+            <p>
+              A modern, responsive website for a construction company, showcasing
+              services, projects, and contact information.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+            <div class="project-card">
+            <div>
+              <img class="h-[204px]" src="/src/assets/advice generator.jpeg" alt="Advice Generator" class="project-image" onerror="this.src = 'https://via.placeholder.com/300?text=Project+Image'">
+            </div>
+            <h3>Advice Generator</h3>
+            <p>
+              A web application that generates random advice using an external API. Built with React and styled with Tailwind CSS.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">HTML5</span>
+            </div>
+            <a href="https://advice-slip-generator-three.vercel.app/" target="_blank" class="project-link">View Project →</a>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">
+          I'd love to hear from you. Feel free to reach out!
+        </p>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:asjallow2004@gmail.com"
+                    >asjallow2004@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+2203695565">+220 3695565</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Costal Road, The Gambia</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a target="_blank" href="https://github.com/Cescthebest6" class="social-icon"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/amadou-saikou-jallow-7b2b2b1b2" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://twitter.com/AmadouSaikouJ" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://dribbble.com/AmadouSaikouJ" class="social-icon"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 | <a
+          class="text-amber-300"
+          href="https://wa.me/2203695565?text=Hello%20Amadou!%20I'm%20interested%20in%20having%20a%20website%20or%20software%20developed.%20Can%20we%20discuss%20my%20project?"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodeByAmadou</a
+        >
+        (Jasseh Code Camp Student). All Rights Reserved.
+      </div>
+    </footer>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
